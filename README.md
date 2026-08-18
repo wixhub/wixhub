@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="bg.jpg" width="100%">
+</p>
+
 Welcome to the profile of a Full-Stack Software Engineer and M.Sc. researcher specializing in high-performance web applications, ecological telemetry spatial engines, and specialized software tools for psychophysiologists. This work bridges advanced frontend and backend engineering with robust database architectures and rigorous scientific data processing.
 
 ---
