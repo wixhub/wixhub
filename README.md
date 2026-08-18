@@ -14,7 +14,7 @@ A look at some of the key architectures and scientific utilities actively develo
 
 - **metadata-harvester** ☄︎ Enterprise-grade metadata ingestion pipeline & REST gateway for ecological research data management built with Java, Spring Boot, Angular, Docker → 🌐 [Live Demo](https://metadata-harvester.pages.dev) 💻 [Source Code](https://github.com/wixhub/metadata-harvester)
 
-- **movebank-explorer-web** ☄︎ Responsive frontend prototype for research data repositories, built for the MoveRDM ecosystem using Angular 22 → 🌐 [Live Demo](https://movebank-explorer-web.pages.dev) 💻 [Source Code](https://github.com/wixhub/movebank-explorer-web)
+- **movebank-explorer-web** ☄︎ Responsive frontend prototype for research data repositories, built for the MoveRDM ecosystem using Angular 22 → 🌐 [Live Demo](https://movebank-explorer.pages.dev) 💻 [Source Code](https://github.com/wixhub/movebank-explorer-web)
 
 - **spatial-temporal** ☄︎ High-performance scientific web application for interactive playback and visualization of animal migration telemetry over geographical map layers, incorporating timeline controls and speed scaling → 🌐 [Live Demo](https://spatial-temporal.pages.dev) 💻 [Source Code](https://github.com/wixhub/spatial-temporal)
 
