@@ -8,7 +8,7 @@ Welcome to the profile of a Full-Stack Software Engineer and M.Sc. researcher sp
 
 ## 🔬 Featured Projects & Ecosystems
 
-A look at some of the key architectures and scientific utilities actively developing:
+Exploring key architectures and scientific utilities currently under development:
 
 ### 🌍 [Ecological & Spatial Tech 🌐 Hub](https://rdm-labs.pages.dev/)
 
