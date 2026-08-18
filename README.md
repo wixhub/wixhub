@@ -12,22 +12,22 @@ A look at some of the key architectures and scientific utilities actively develo
 
 ### 🌍 [Ecological & Spatial Tech 🌐 Hub](https://rdm-labs.pages.dev/)
 
-- **metadata-harvester** Enterprise-grade metadata ingestion pipeline & REST gateway for ecological research data management built with Java, Spring Boot, Angular, Docker
+- **metadata-harvester** ☄︎ Enterprise-grade metadata ingestion pipeline & REST gateway for ecological research data management built with Java, Spring Boot, Angular, Docker
   - 🌐 [Live Demo](https://metadata-harvester.pages.dev) 💻 [Source Code](https://github.com/wixhub/metadata-harvester)
 
-- **movebank-explorer-web** Responsive frontend prototype for research data repositories, built for the MoveRDM ecosystem using Angular 22
+- **movebank-explorer-web** ☄︎ Responsive frontend prototype for research data repositories, built for the MoveRDM ecosystem using Angular 22
   - 🌐 [Live Demo](https://movebank-explorer-web.pages.dev) 💻 [Source Code](https://github.com/wixhub/movebank-explorer-web)
 
-- **spatial-temporal** High-performance scientific web application for interactive playback and visualization of animal migration telemetry over geographical map layers, incorporating timeline controls and speed scaling
+- **spatial-temporal** ☄︎ High-performance scientific web application for interactive playback and visualization of animal migration telemetry over geographical map layers, incorporating timeline controls and speed scaling
   - 🌐 [Live Demo](https://spatial-temporal.pages.dev) 💻 [Source Code](https://github.com/wixhub/spatial-temporal)
 
-- **sensor-streams** The scientific dashboard designed to visualize multi-dimensional sensor streams, combining GPS tracking with accelerometer and environmental data through synchronized time-series charts.
+- **sensor-streams** ☄︎ The scientific dashboard designed to visualize multi-dimensional sensor streams, combining GPS tracking with accelerometer and environmental data through synchronized time-series charts.
   - 🌐 [Live Demo](https://sensor-streams.pages.dev) 💻 [Source Code](https://github.com/wixhub/sensor-streams)
 
-- **bio-stream** Spatial rendering engine for migratory animal tracking data.
+- **bio-stream** ☄︎ Spatial rendering engine for migratory animal tracking data.
   - 🌐 [Live Demo](https://bio-stream.pages.dev) 💻 [Source Code](https://github.com/wixhub/bio-stream)
 
-- **data-curation** Interactive web utility for researchers working with animal tracking data.
+- **data-curation** ☄︎ Interactive web utility for researchers working with animal tracking data.
   - 🌐 [Live Demo](https://data-curation.pages.dev) 💻 [Source Code](https://github.com/wixhub/data-curation)
 
 ---
