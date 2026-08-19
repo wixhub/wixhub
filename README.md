@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="bg.jpg" width="100%">
+  <img src="bg.jpg" width="100%" style="transform: translateY(-100px);"position: relative; top: -100px;">
 </p>
 
 Welcome to the profile of a Full-Stack Software Engineer and M.Sc. researcher specializing in high-performance web applications, ecological telemetry spatial engines and specialized software tools for psychophysiologists. This work bridges advanced frontend and backend engineering with robust database architectures and rigorous scientific data processing.
@@ -26,11 +26,11 @@ Exploring key architectures and scientific utilities currently under development
 
 ---
 
-### 🧠 [Psychophysiology, EEG & Research Tools 🌐 Hub](https://psychophysiology.pages.dev)
+### 🧠 [Psychophysiology Research 🌐 Hub](https://psychophysiology.pages.dev)
 
 - **[AffectiveSync 🌐 Live Demo](https://affective-sync.pages.dev/)** (_Multimodal Emotion_) Client-side neural network application utilizing computer vision to extract facial blendshapes frame-by-frame and correlate micro-expressions with autonomic emotional dynamics.
 
-### 🧘 Applied Psychophysiology, Regulation & Wellness Tools
+### 🧘 Applied Wellness Tools
 
 - **[Bilateral Stimulation 🌐 Live Demo](https://bilateral-stimulation.pages.dev)** (_EMDR_) A visual tool designed to help process stress and reduce emotional intensity.
 
