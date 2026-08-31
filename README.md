@@ -56,7 +56,7 @@ Exploring key architectures and scientific utilities currently under development
 
 - **Frontend & Architecture**: Angular, TypeScript, Signals, RxJS, Standalone Components, Leaflet (GIS)
 
-- **Backend & APIs**: Java, Spring Boot, REST APIs, Cloudflare Workers (Serverless)
+- **Backend & APIs**: Java, Spring Boot, REST APIs, Workers (Serverless)
 
 - **Databases & Storage**:
   - Relational DBs (PostgreSQL, MySQL) for dynamic cloud-native data management
