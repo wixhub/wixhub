@@ -12,23 +12,23 @@ Exploring key architectures and scientific utilities currently under development
 
 ### 🌍 [Ecological & Spatial Tech 🌐 Hub](https://rdm-labs.pages.dev/)
 
-- **metadata-harvester** ☄︎ Enterprise-grade metadata ingestion pipeline & REST gateway for ecological research data management
+- **metadata-harvester** ☄︎ Enterprise-grade metadata ingestion pipeline & REST gateway for ecological research data management <br>
   | Java, Spring Boot, Angular, Docker  → 🌐 [Live Demo](https://metadata-harvester.pages.dev) 💻 [Source Code](https://github.com/wixhub/metadata-harvester)
 
-- **movebank-explorer-web** ☄︎ Responsive frontend prototype for research data repositories, built for the MoveRDM ecosystem
-  | Angular, Groq AI, Workers  → 🌐 [Live Demo](https://movebank-explorer.pages.dev) 💻 [Source Code](https://github.com/wixhub/movebank-explorer-web)
+- **movebank-explorer-web** ☄︎ Responsive frontend prototype for research data repositories, built for the MoveRDM ecosystem <br>
+  | Angular, Groq AI, Workers → 🌐 [Live Demo](https://movebank-explorer.pages.dev) 💻 [Source Code](https://github.com/wixhub/movebank-explorer-web)
 
-- **spatial-temporal** ☄︎ High-performance scientific web application for interactive playback and visualization of animal migration telemetry over geographical map layers, incorporating timeline controls and speed scaling
-  | Angular, Leaflet, Workers  → 🌐 [Live Demo](https://spatial-temporal.pages.dev) 💻 [Source Code](https://github.com/wixhub/spatial-temporal)
+- **spatial-temporal** ☄︎ High-performance scientific web application for interactive playback and visualization of animal migration telemetry over geographical map layers, incorporating timeline controls and speed scaling <br>
+  | Angular, Leaflet, Workers           → 🌐 [Live Demo](https://spatial-temporal.pages.dev) 💻 [Source Code](https://github.com/wixhub/spatial-temporal)
 
-- **sensor-streams** ☄︎ The scientific dashboard designed to visualize multi-dimensional sensor streams, combining GPS tracking with accelerometer and environmental data through synchronized time-series charts
-  | Angular, ChartJS, Workers  → 🌐 [Live Demo](https://sensor-streams.pages.dev) 💻 [Source Code](https://github.com/wixhub/sensor-streams)
+- **sensor-streams** ☄︎ The scientific dashboard designed to visualize multi-dimensional sensor streams, combining GPS tracking with accelerometer and environmental data through synchronized time-series charts <br>
+  | Angular, ChartJS, Workers           → 🌐 [Live Demo](https://sensor-streams.pages.dev) 💻 [Source Code](https://github.com/wixhub/sensor-streams)
 
-- **bio-stream** ☄︎ Spatial rendering engine for migratory animal tracking data
-  | Angular, Leaflet, Workers   → 🌐 [Live Demo](https://bio-stream.pages.dev) 💻 [Source Code](https://github.com/wixhub/bio-stream)
+- **bio-stream** ☄︎ Spatial rendering engine for migratory animal tracking data <br>
+  | Angular, Leaflet, Workers           → 🌐 [Live Demo](https://bio-stream.pages.dev) 💻 [Source Code](https://github.com/wixhub/bio-stream)
 
-- **data-curation** ☄︎ Interactive web utility for researchers working with animal tracking data
-  | Angular & Leaflet  → 🌐 [Live Demo](https://data-curation.pages.dev) 💻 [Source Code](https://github.com/wixhub/data-curation)
+- **data-curation** ☄︎ Interactive web utility for researchers working with animal tracking data <br>
+  | Angular & Leaflet                   → 🌐 [Live Demo](https://data-curation.pages.dev) 💻 [Source Code](https://github.com/wixhub/data-curation)
 
 ---
 
