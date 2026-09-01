@@ -13,7 +13,7 @@ Exploring key architectures and scientific utilities currently under development
 ### 🌍 [Ecological & Spatial Tech 🌐 Hub](https://rdm-labs.pages.dev/)
 
 - **metadata-harvester** ☄︎ Enterprise-grade metadata ingestion pipeline & REST gateway for ecological research data management <br>
-  | Java, Spring Boot, Angular, Docker  → 🌐 [Live Demo](https://metadata-harvester.pages.dev) 💻 [Source Code](https://github.com/wixhub/metadata-harvester)
+  | Java, Spring Boot, Angular, PostgreSQL, Docker  → 🌐 [Live Demo](https://metadata-harvester.pages.dev) 💻 [Source Code](https://github.com/wixhub/metadata-harvester)
 
 - **movebank-explorer-web** ☄︎ Responsive frontend prototype for research data repositories, built for the MoveRDM ecosystem <br>
   | Angular, Groq AI, Workers → 🌐 [Live Demo](https://movebank-explorer.pages.dev) 💻 [Source Code](https://github.com/wixhub/movebank-explorer-web)
