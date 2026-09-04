@@ -2,7 +2,7 @@
   <img src="bg.jpg" width="100%" style="transform: translateY(-100px);"position: relative; top: -100px;">
 </p>
 
-Welcome to the profile of a Full-Stack Software Engineer and M.Sc. researcher specializing in high-performance web applications, ecological telemetry spatial engines and specialized software tools for psychophysiologists. This work bridges advanced frontend and backend engineering with robust database architectures and rigorous scientific data processing.
+Welcome to the profile of an RSE specializing in high-performance web apps, ecological telemetry spatial engines and specialized software tools for psychophysiologists. This work bridges advanced frontend and backend engineering with robust database architectures and rigorous scientific data processing.
 
 ---
 
