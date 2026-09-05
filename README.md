@@ -12,7 +12,7 @@ Exploring key architectures and scientific utilities currently under development
 
 ### 🌍 [Ecological & Spatial Tech 🌐 Hub](https://rdm-labs.pages.dev/)
 
-- **eco-spec** ⚗️ Professional specification wizard for configuring hierarchical Movebank telemetry parameters and generating structured JSON schemas, featuring real-time data volume calculations processed in a background Web Worker thread | Angular, Signals, Web Workers → 🌐 [Live Demo](https://eco-spec.pages.dev) 💻 [Source Code](https://github.com/wixhub/eco-spec)
+- **eco-spec** ⚗️ Professional specification wizard for configuring hierarchical Movebank telemetry parameters and generating structured JSON schemas, featuring real-time data volume calculations processed in a background Web Worker thread <br> | Angular, Signals, Web Workers → 🌐 [Live Demo](https://eco-spec.pages.dev) 💻 [Source Code](https://github.com/wixhub/eco-spec)
 
 - **metadata-harvester** ☄︎ Enterprise-grade metadata ingestion pipeline & REST gateway for ecological research data management <br>
   | Java, Spring Boot, Angular, PostgreSQL, Docker  → 🌐 [Live Demo](https://metadata-harvester.pages.dev) 💻 [Source Code](https://github.com/wixhub/metadata-harvester)
