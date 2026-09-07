@@ -30,7 +30,7 @@ Exploring key architectures and scientific utilities currently under development
   | Angular, Leaflet, Workers           → 🌐 [Live Demo](https://bio-stream.pages.dev) 💻 [Source Code](https://github.com/wixhub/bio-stream)
 
 - **Tracking Curation** ☄︎ Interactive web utility for researchers working with animal tracking data <br>
-  | Angular & Leaflet                   → 🌐 [Live Demo](https://data-curation.pages.dev) 💻 [Source Code](https://github.com/wixhub/data-curation)
+  | Angular, Dexie, Leaflet                   → 🌐 [Live Demo](https://data-curation.pages.dev) 💻 [Source Code](https://github.com/wixhub/data-curation)
 
 ---
 
