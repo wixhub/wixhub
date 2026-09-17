@@ -2,7 +2,7 @@
   <img src="bg.jpg" width="100%" style="transform: translateY(-100px);"position: relative; top: -100px;">
 </p>
 
-Welcome to the profile of an RSE specializing in high-performance web apps, ecological telemetry spatial engines and specialized software tools for psychophysiologists. This work bridges advanced frontend and backend engineering with robust database architectures and rigorous scientific data processing.
+Welcome to the profile of an RSE specializing in high-performance full staсk web apps, ecological telemetry spatial engines and specialized software tools. This work bridges advanced frontend and backend engineering with robust database architectures and rigorous scientific data processing.
 
 ---
 
@@ -12,25 +12,36 @@ Exploring key architectures and scientific utilities currently under development
 
 ### 🌍 [Ecological & Spatial Tech 🌐 Hub](https://rdm-labs.pages.dev/)
 
-- **Specification Builder** ⚗️ Professional specification wizard for configuring hierarchical Movebank telemetry parameters and generating structured JSON schemas, featuring real-time data volume calculations processed in a background Web Worker thread <br> | Angular, Signals, Web Workers → 🌐 [Live Demo](https://eco-spec.pages.dev) 💻 [Source Code](https://github.com/wixhub/eco-spec)
+- **EcoEngine Core** ☄︎ High-performance Java Spring Boot core service providing RESTful APIs, secure metadata ingestion pipelines and database management for ecological research data<br/>
+  | Java, Spring Boot, PostgreSQL, Docker → 💻 [Source Code](https://github.com/wixhub/ecoengine)
 
-- **Metadata Harvester** ☄︎ Enterprise-grade metadata ingestion pipeline & REST gateway for ecological research data management <br>
-  | Java, Spring Boot, Angular, PostgreSQL, Docker  → 🌐 [Live Demo](https://metadata-harvester.pages.dev) 💻 [Source Code](https://github.com/wixhub/metadata-harvester)
+- **Eco-Proxy (Cloudflare Worker)** ☄︎ Secure Cloudflare Worker acting as a CORS proxy for the Movebank API and an AI agent gateway <br/>
+  | TypeScript, Cloudflare Workers, Groq AI → 💻 [Source Code](https://github.com/wixhub/ecoproxy)
 
-- **Dataset Explorer** ☄︎ Responsive frontend prototype for research data repositories, built for the MoveRDM ecosystem <br>
-  | Angular, Groq AI, Workers → 🌐 [Live Demo](https://movebank-explorer.pages.dev) 💻 [Source Code](https://github.com/wixhub/movebank-explorer-web)
+- **Ecosystem Frontend Suite** ☄︎ Unified Angular monorepo housing all scientific applications and micro-frontends (including Specification Builder, Metadata Harvester, Dataset Explorer, Telemetry Animator, Sensor Streams, Spatial Visualizer and Tracking Curation) <br/>
+  | Angular, Signals, TypeScript, NX Monorepo → 💻 [Source Code](https://github.com/wixhub/ecosystem)
 
-- **Telemetry Animator** ☄︎ High-performance scientific web application for interactive playback and visualization of animal migration telemetry over geographical map layers, incorporating timeline controls and speed scaling <br>
-  | Angular, Leaflet, Workers           → 🌐 [Live Demo](https://spatial-temporal.pages.dev) 💻 [Source Code](https://github.com/wixhub/spatial-temporal)
+🌐 Live Demos:
 
-- **Sensor Streams** ☄︎ The scientific dashboard designed to visualize multi-dimensional sensor streams, combining GPS tracking with accelerometer and environmental data through synchronized time-series charts <br>
-  | Angular, ChartJS, Workers           → 🌐 [Live Demo](https://sensor-streams.pages.dev) 💻 [Source Code](https://github.com/wixhub/sensor-streams)
+- **Specification Builder** ⚗️ Professional specification wizard for configuring hierarchical Movebank telemetry parameters and generating structured JSON schemas, featuring real-time data volume calculations processed in a background Web Worker thread <br/> | Angular, Signals, Web Workers, TypeScript, NX Monorepo → 🌐 [Live Demo](https://eco-spec.pages.dev)
 
-- **Spatial Visualizer** ☄︎ Spatial rendering engine for migratory animal tracking data <br>
-  | Angular, Leaflet, Workers           → 🌐 [Live Demo](https://bio-stream.pages.dev) 💻 [Source Code](https://github.com/wixhub/bio-stream)
+- **Metadata Harvester** ☄︎ Responsive frontend application for the metadata ingestion pipeline and REST gateway. Communicates with the EcoEngine backend and is housed within the unified ecosystem workspace. <br/>
+  | Angular, Signals, TypeScript, NX Monorepo → 🌐 [Live Demo](https://metadata-harvester.pages.dev)
 
-- **Tracking Curation** ☄︎ Interactive web utility for researchers working with animal tracking data <br>
-  | Angular, Dexie, Leaflet                   → 🌐 [Live Demo](https://data-curation.pages.dev) 💻 [Source Code](https://github.com/wixhub/data-curation)
+- **Dataset Explorer** ☄︎ Responsive frontend prototype for research data repositories, built for the MoveRDM ecosystem and communicating with the Workers and Groq AI backends<br/>
+  | Angular, Signals, TypeScript, NX Monorepo → 🌐 [Live Demo](https://movebank-explorer.pages.dev)
+
+- **Telemetry Animator** ☄︎ High-performance scientific web application for interactive playback and visualization of animal migration telemetry over geographical map layers, incorporating timeline controls and speed scaling, communicating with the Workers backends <br/>
+  | Angular, Signals, Leaflet, TypeScript, NX Monorepo → 🌐 [Live Demo](https://spatial-temporal.pages.dev)
+
+- **Sensor Streams** ☄︎ The scientific dashboard designed to visualize multi-dimensional sensor streams, combining GPS tracking with accelerometer and environmental data through synchronized time-series charts, communicating with the Workers backends <br/>
+  | Angular, Signals, ChartJS, TypeScript, NX Monorepo → 🌐 [Live Demo](https://sensor-streams.pages.dev)
+
+- **Spatial Visualizer** ☄︎ Spatial rendering engine for migratory animal tracking data, communicating with the Workers backends <br/>
+  | Angular, Signals, Leaflet, TypeScript, NX Monorepo → 🌐 [Live Demo](https://bio-stream.pages.dev)
+
+- **Tracking Curation** ☄︎ Interactive web utility for researchers working with animal tracking data, leveraging browser-based Dexie storage for offline-first data management <br/>
+  | Angular, Signals, Dexie, Leaflet, TypeScript, NX Monorepo → 🌐 [Live Demo](https://data-curation.pages.dev)
 
 ---
 
