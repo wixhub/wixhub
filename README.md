@@ -4,13 +4,19 @@
 
 Welcome to the profile of an RSE specializing in high-performance full staсk web apps, ecological telemetry spatial engines and specialized software tools. This work bridges advanced frontend and backend engineering with robust database architectures and rigorous scientific data processing.
 
----
-
-## 🔬 Featured Projects & Ecosystems
+# 🔬 Featured Projects & Ecosystems
 
 Exploring key architectures and scientific utilities currently under development:
 
-### 🌍 [Ecological & Spatial Tech 🌐 Hub](https://rdm-labs.pages.dev/)
+## 👁️ Visual Computing & Affective Technologies
+
+- **[Micro Expression Engine 🌐 Live Demo](https://facs-engine.pages.dev/)** ☄︎ A high-performance, real-time facial telemetry and micro-expression analysis web application. The core detection engine is written in C++20, compiled to WebAssembly (WASM) via Emscripten and Ninja, and integrated into a modern Angular frontend using Signals and reactive components<br/>
+  | C++20, WebAssembly, Angular → 💻 [Source Code](https://github.com/wixhub/facs)
+
+- **[Affective Synchronization 🌐 Live Demo](https://affective-sync.pages.dev/)** ☄︎ A client-side neural network application utilizing computer vision to extract facial blendshapes frame-by-frame and synchronize affective data with an interactive timeline<br/>
+  | Angular, TypeScript, MediaPipe, ECharts → 💻 [Source Code](https://github.com/wixhub/AffectiveSync)
+
+## 🌍 EcoEngine & Spatial Telemetry Ecosystem
 
 - **EcoEngine Core** ☄︎ High-performance Java Spring Boot core service providing RESTful APIs, secure metadata ingestion pipelines and database management for ecological research data<br/>
   | Java, Spring Boot, PostgreSQL, Docker → 💻 [Source Code](https://github.com/wixhub/ecoengine)
@@ -23,31 +29,26 @@ Exploring key architectures and scientific utilities currently under development
 
 🌐 Live Demos:
 
-- **Specification Builder** ⚗️ Professional specification wizard for configuring hierarchical Movebank telemetry parameters and generating structured JSON schemas, featuring real-time data volume calculations processed in a background Web Worker thread <br/> | Angular, Signals, Web Workers, TypeScript, NX Monorepo → 🌐 [Live Demo](https://eco-spec.pages.dev)
+- **Specification Builder** ⚗️ Professional specification wizard for configuring hierarchical Movebank telemetry parameters and generating structured JSON schemas, featuring real-time data volume calculations processed in a background Web Worker thread <br/>
+  | Angular, Signals, Web Workers, TypeScript, NX Monorepo → 🌐 [Live Demo](https://eco-spec.pages.dev)
 
-- **Metadata Harvester** ☄︎ Responsive frontend application for the metadata ingestion pipeline and REST gateway. Communicates with the EcoEngine backend and is housed within the unified ecosystem workspace. <br/>
-  | Angular, Signals, TypeScript, NX Monorepo → 🌐 [Live Demo](https://metadata-harvester.pages.dev)
+- **Metadata Harvester** ☄︎ Responsive frontend application for the metadata ingestion pipeline and REST gateway. Communicates with the EcoEngine backend and is housed within the unified ecosystem workspace <br/>
+  | Angular, TypeScript, NX Monorepo → 🌐 [Live Demo](https://metadata-harvester.pages.dev)
 
-- **Dataset Explorer** ☄︎ Responsive frontend prototype for research data repositories, built for the MoveRDM ecosystem and communicating with the Workers and Groq AI backends<br/>
-  | Angular, Signals, TypeScript, NX Monorepo → 🌐 [Live Demo](https://movebank-explorer.pages.dev)
+- **Dataset Explorer** ☄︎ Responsive frontend prototype for research data repositories, built for the MoveRDM ecosystem and communicating with the Workers and Groq AI backends <br/>
+  | Angular, TypeScript, NX Monorepo → 🌐 [Live Demo](https://movebank-explorer.pages.dev)
 
 - **Telemetry Animator** ☄︎ High-performance scientific web application for interactive playback and visualization of animal migration telemetry over geographical map layers, incorporating timeline controls and speed scaling, communicating with the Workers backends <br/>
-  | Angular, Signals, Leaflet, TypeScript, NX Monorepo → 🌐 [Live Demo](https://spatial-temporal.pages.dev)
+  | Angular, Leaflet, TypeScript, NX Monorepo → 🌐 [Live Demo](https://spatial-temporal.pages.dev)
 
 - **Sensor Streams** ☄︎ The scientific dashboard designed to visualize multi-dimensional sensor streams, combining GPS tracking with accelerometer and environmental data through synchronized time-series charts, communicating with the Workers backends <br/>
-  | Angular, Signals, ChartJS, TypeScript, NX Monorepo → 🌐 [Live Demo](https://sensor-streams.pages.dev)
+  | Angular, ChartJS, TypeScript, NX Monorepo → 🌐 [Live Demo](https://sensor-streams.pages.dev)
 
 - **Spatial Visualizer** ☄︎ Spatial rendering engine for migratory animal tracking data, communicating with the Workers backends <br/>
-  | Angular, Signals, Leaflet, TypeScript, NX Monorepo → 🌐 [Live Demo](https://bio-stream.pages.dev)
+  | Angular, Leaflet, TypeScript, NX Monorepo → 🌐 [Live Demo](https://bio-stream.pages.dev)
 
 - **Tracking Curation** ☄︎ Interactive web utility for researchers working with animal tracking data, leveraging browser-based Dexie storage for offline-first data management <br/>
-  | Angular, Signals, Dexie, Leaflet, TypeScript, NX Monorepo → 🌐 [Live Demo](https://data-curation.pages.dev)
-
----
-
-### 🧠 [Psychophysiology Research 🌐 Hub](https://psychophysiology.pages.dev)
-
-- **[AffectiveSync 🌐 Live Demo](https://affective-sync.pages.dev/)** (_Multimodal Emotion_) Client-side neural network application utilizing computer vision to extract facial blendshapes frame-by-frame and correlate micro-expressions with autonomic emotional dynamics.
+  | Angular, Dexie, Leaflet, TypeScript, NX Monorepo → 🌐 [Live Demo](https://data-curation.pages.dev)
 
 ### 🧘 Applied Wellness Tools
 
@@ -67,16 +68,12 @@ Exploring key architectures and scientific utilities currently under development
 
 ## ⚡ Core Tech Stack & Infrastructure
 
-- **Frontend & Architecture**: Angular, TypeScript, Signals, RxJS, Standalone Components, Leaflet (GIS)
+- **Frontend & Architecture**: Angular, TypeScript, RxJS, Leaflet (GIS)
 
-- **Backend & APIs**: Java, Spring Boot, REST APIs, Workers (Serverless)
+- **Backend & APIs**: C++, Java, Spring Boot, REST APIs, Workers (Serverless), Groq AI
 
 - **Databases & Storage**:
   - Relational DBs (PostgreSQL, MySQL) for dynamic cloud-native data management
   - NoSQL (MongoDB) for flexible telemetry schemas and unstructured scientific datasets
 
 - **DevOps & Domain**: Docker, Git, CI/CD Pipelines, spatial data pipelines and scientific instrumentation.
-
----
-
-📫 **Let's build powerful tools for science and technology together!**
