@@ -2,13 +2,16 @@
   <img src="bg.jpg" width="100%" style="transform: translateY(-100px);"position: relative; top: -100px;">
 </p>
 
-Welcome to the profile of an RSE specializing in high-performance full staсk web apps, ecological telemetry spatial engines and specialized software tools. This work bridges advanced frontend and backend engineering with robust database architectures and rigorous scientific data processing.
+Welcome to the profile of a Research Software Engineer bridging high-performance systems engineering and interactive visual computing. Specializing in real-time computer vision pipelines, spatial engines and browser-based scientific visualization tools that translate complex telemetry and affective data into intuitive visual interfaces.
 
 # 🔬 Featured Projects & Ecosystems
 
 Exploring key architectures and scientific utilities currently under development:
 
 ## 👁️ Visual Computing & Affective Technologies
+
+- **[Med Vision Inspector 🌐 Live Demo](https://vision-inspector.pages.dev/)** ☄︎ An interactive scientific web application for the inspection, processing, and visual explanation of biomedical imaging data using Grad-CAM attention mapping
+  | Python, PyTorch, FastAPI, Computer Vision, XAI → 💻 [Source Code](https://github.com/wixhub/web-vision-inspector)
 
 - **[Micro Expression Engine 🌐 Live Demo](https://facs-engine.pages.dev/)** ☄︎ A high-performance, real-time facial telemetry and micro-expression analysis web application. The core detection engine is written in C++20, compiled to WebAssembly (WASM) via Emscripten and Ninja, and integrated into a modern Angular frontend using Signals and reactive components<br/>
   | C++20, WebAssembly, Angular → 💻 [Source Code](https://github.com/wixhub/facs)
@@ -18,13 +21,13 @@ Exploring key architectures and scientific utilities currently under development
 
 ## 🌍 EcoEngine & Spatial Telemetry Ecosystem
 
-- **EcoEngine Core** ☄︎ High-performance Java Spring Boot core service providing RESTful APIs, secure metadata ingestion pipelines and database management for ecological research data<br/>
+- **EcoEngine Core** ☄︎ High-performance Java Spring Boot core service providing RESTful APIs, secure metadata ingestion pipelines and database management for ecological research 🌐 [Metadata Harvester](https://metadata-harvester.pages.dev) <br/>
   | Java, Spring Boot, PostgreSQL, Docker → 💻 [Source Code](https://github.com/wixhub/ecoengine)
 
 - **Eco-Proxy (Cloudflare Worker)** ☄︎ Secure Cloudflare Worker acting as a CORS proxy for the Movebank API and an AI agent gateway <br/>
   | TypeScript, Cloudflare Workers, Groq AI → 💻 [Source Code](https://github.com/wixhub/ecoproxy)
 
-- **Ecosystem Frontend Suite** ☄︎ Unified Angular monorepo housing all scientific applications and micro-frontends (including Specification Builder, Metadata Harvester, Dataset Explorer, Telemetry Animator, Sensor Streams, Spatial Visualizer and Tracking Curation) <br/>
+- **Ecosystem Frontend Suite** ☄︎ Unified Angular monorepo housing all scientific applications and micro-frontends, including web apps 🌐 [Specification Builder](https://eco-spec.pages.dev), [Metadata Harvester](https://metadata-harvester.pages.dev), [Dataset Explorer](https://movebank-explorer.pages.dev), [Telemetry Animator](https://spatial-temporal.pages.dev), [Sensor Streams](https://sensor-streams.pages.dev), [Spatial Visualizer](https://bio-stream.pages.dev) and [Tracking Curation](https://data-curation.pages.dev) <br/>
   | Angular, Signals, TypeScript, NX Monorepo → 💻 [Source Code](https://github.com/wixhub/ecosystem)
 
 🌐 Live Demos:
