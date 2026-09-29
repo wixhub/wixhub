@@ -10,7 +10,7 @@ Exploring key architectures and scientific utilities currently under development
 
 ## 👁️ Visual Computing & Affective Technologies
 
-- **[Med Vision Inspector 🌐 Live Demo](https://vision-inspector.pages.dev/)** ☄︎ An interactive scientific web application for the inspection, processing, and visual explanation of biomedical imaging data using Grad-CAM attention mapping
+- **[Med Vision Inspector 🌐 Live Demo](https://vision-inspector.pages.dev/)** ☄︎ An interactive scientific web application for the inspection, processing and visual explanation of biomedical imaging data using Grad-CAM attention mapping<br/>
   | Python, PyTorch, FastAPI, Computer Vision, XAI → 💻 [Source Code](https://github.com/wixhub/web-vision-inspector)
 
 - **[Micro Expression Engine 🌐 Live Demo](https://facs-engine.pages.dev/)** ☄︎ A high-performance, real-time facial telemetry and micro-expression analysis web application. The core detection engine is written in C++20, compiled to WebAssembly (WASM) via Emscripten and Ninja, and integrated into a modern Angular frontend using Signals and reactive components<br/>
