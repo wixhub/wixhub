@@ -10,6 +10,9 @@ Exploring key architectures and scientific utilities currently under development
 
 ## 👁️ Visual Computing & Affective Technologies
 
+- **[Wasm Point Cloud Engine 🌐 Live Demo](https://point-cloud.pages.dev/)** ☄︎ A high-performance 3D point cloud rendering and spatial downsampling web application. Powered by a C++20 backend compiled to WebAssembly (WASM) with non-destructive filtering, integrated into an Angular frontend via Signals and Three.js<br/>
+  | C++20, WebAssembly, Angular, Three.js → 💻 [Source Code](https://github.com/wixhub/WasmPointCloud)
+
 - **[Med Vision Inspector 🌐 Live Demo](https://vision-inspector.pages.dev/)** ☄︎ An interactive scientific web application for the inspection, processing and visual explanation of biomedical imaging data using Grad-CAM attention mapping<br/>
   | Python, PyTorch, FastAPI, Computer Vision, XAI → 💻 [Source Code](https://github.com/wixhub/web-vision-inspector)
 
