@@ -2,9 +2,9 @@
   <img src="bg.jpg" width="100%" alt="Scientific computing and research software engineering" />
 </p>
 
-# Research Software Engineering · Scientific Computing · Visual Computing
+# Research Software Engineering · Scientific & Visual Computing
 
-Developing scientific software, research data infrastructure and interactive computational tools. Focus areas include high-performance spatial processing, scientific visualization, ecological telemetry, computer vision and reproducible research workflows.
+Developing scientific software, research data infrastructure and interactive computational tools. Focus areas include high-performance spatial processing, scientific visualization, ecological telemetry, computer vision and reproducible researh workflows.
 
 ## Featured Research Software
 
@@ -18,7 +18,7 @@ Scientific data infrastructure and interactive tools for ecological research and
 
 **Live applications:** [Specification Builder](https://eco-spec.pages.dev/) · [Metadata Harvester](https://metadata-harvester.pages.dev/) · [Dataset Explorer](https://movebank-explorer.pages.dev/) · [Telemetry Animator](https://spatial-temporal.pages.dev/) · [Sensor Streams](https://sensor-streams.pages.dev/) · [Spatial Visualizer](https://bio-stream.pages.dev/) · [Tracking Curation](https://data-curation.pages.dev/)
 
-*Technologies:* Java, Spring Boot, PostgreSQL, Docker, TypeScript, Angular, Nx, Leaflet, Web Workers.
+_Technologies:_ Java, Spring Boot, PostgreSQL, Docker, TypeScript, Angular, Nx, Leaflet, Web Workers.
 
 ### 2. Wasm Point Cloud Engine — Computational Geometry & Visualization
 
@@ -26,7 +26,7 @@ Scientific data infrastructure and interactive tools for ecological research and
 
 Interactive 3D point-cloud processing and visualization with spatial downsampling and non-destructive filtering. A C++20 computational engine compiled to WebAssembly and integrated with an Angular and Three.js frontend.
 
-*Technologies:* C++20, WebAssembly, Emscripten, Angular, Three.js.
+_Technologies:_ C++20, WebAssembly, Emscripten, Angular, Three.js.
 
 ### 3. Med Vision Inspector — Biomedical Imaging & Explainable AI
 
@@ -34,7 +34,7 @@ Interactive 3D point-cloud processing and visualization with spatial downsamplin
 
 Scientific application for biomedical image inspection and processing, with deep-learning-based analysis and Grad-CAM visualizations to examine model attention.
 
-*Technologies:* Python, PyTorch, FastAPI, computer vision, explainable AI.
+_Technologies:_ Python, PyTorch, FastAPI, computer vision, explainable AI.
 
 ### 4. Micro Expression Engine — Computer Vision & Real-Time Processing
 
@@ -44,7 +44,7 @@ A computer-vision project originating from a Master of Science project in 2010, 
 
 The project connects an earlier academic research interest with a contemporary browser-based implementation.
 
-*Technologies:* C++20, WebAssembly, Emscripten, Ninja, Angular, TypeScript.
+_Technologies:_ C++20, WebAssembly, Emscripten, Ninja, Angular, TypeScript.
 
 ### 5. Affective Synchronization — Temporal Data Visualization
 
@@ -52,7 +52,7 @@ The project connects an earlier academic research interest with a contemporary b
 
 Browser-based application for processing facial blendshape data frame by frame and exploring temporal synchronization through an interactive timeline.
 
-*Technologies:* Angular, TypeScript, MediaPipe, ECharts.
+_Technologies:_ Angular, TypeScript, MediaPipe, ECharts.
 
 ---
 
@@ -93,4 +93,4 @@ Key engineering priorities include:
 
 ---
 
-*Open-source projects and live demonstrations are provided for technical exploration. Scientific validity, clinical efficacy and suitability for specific research workflows depend on the methods, data and validation documented by each project.*
+_Open-source projects and live demonstrations are provided for technical exploration. Scientific validity, clinical efficacy and suitability for specific research workflows depend on the methods, data and validation documented by each project._
