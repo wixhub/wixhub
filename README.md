@@ -1,85 +1,96 @@
-<p align="center">
-  <img src="bg.jpg" width="100%" style="transform: translateY(-100px);"position: relative; top: -100px;">
+ <p align="center">
+  <img src="bg.jpg" width="100%" alt="Scientific computing and research software engineering" />
 </p>
 
-Welcome to the profile of a Research Software Engineer bridging high-performance systems engineering and interactive visual computing. Specializing in real-time computer vision pipelines, spatial engines and browser-based scientific visualization tools that translate complex telemetry and affective data into intuitive visual interfaces.
+# Research Software Engineering · Scientific Computing · Visual Computing
 
-# 🔬 Featured Projects & Ecosystems
+Developing scientific software, research data infrastructure and interactive computational tools. Focus areas include high-performance spatial processing, scientific visualization, ecological telemetry, computer vision and reproducible research workflows.
 
-Exploring key architectures and scientific utilities currently under development:
+## Featured Research Software
 
-## 👁️ Visual Computing & Affective Technologies
+### 1. EcoEngine — Research Data Infrastructure
 
-- **[Wasm Point Cloud Engine 🌐 Live Demo](https://point-cloud.pages.dev/)** ☄︎ A high-performance 3D point cloud rendering and spatial downsampling web application. Powered by a C++20 backend compiled to WebAssembly (WASM) with non-destructive filtering, integrated into an Angular frontend via Signals and Three.js<br/>
-  | C++20, WebAssembly, Angular, Three.js → 💻 [Source Code](https://github.com/wixhub/WasmPointCloud)
+Scientific data infrastructure and interactive tools for ecological research and animal movement telemetry.
 
-- **[Med Vision Inspector 🌐 Live Demo](https://vision-inspector.pages.dev/)** ☄︎ An interactive scientific web application for the inspection, processing and visual explanation of biomedical imaging data using Grad-CAM attention mapping<br/>
-  | Python, PyTorch, FastAPI, Computer Vision, XAI → 💻 [Source Code](https://github.com/wixhub/web-vision-inspector)
+- **[EcoEngine Core](https://github.com/wixhub/ecoengine)** — Java/Spring Boot backend for REST APIs, metadata ingestion and PostgreSQL data management.
+- **[Ecosystem Frontend Suite](https://github.com/wixhub/ecosystem)** — Angular/Nx monorepo integrating research applications for metadata management, dataset exploration, telemetry visualization and data curation.
+- **[Eco-Proxy](https://github.com/wixhub/ecoproxy)** — Cloudflare Worker integration layer for Movebank API access and AI-assisted services.
 
-- **[Micro Expression Engine 🌐 Live Demo](https://facs-engine.pages.dev/)** ☄︎ A high-performance, real-time facial telemetry and micro-expression analysis web application. The core detection engine is written in C++20, compiled to WebAssembly (WASM) via Emscripten and Ninja, and integrated into a modern Angular frontend using Signals and reactive components<br/>
-  | C++20, WebAssembly, Angular → 💻 [Source Code](https://github.com/wixhub/facs)
+**Live applications:** [Specification Builder](https://eco-spec.pages.dev/) · [Metadata Harvester](https://metadata-harvester.pages.dev/) · [Dataset Explorer](https://movebank-explorer.pages.dev/) · [Telemetry Animator](https://spatial-temporal.pages.dev/) · [Sensor Streams](https://sensor-streams.pages.dev/) · [Spatial Visualizer](https://bio-stream.pages.dev/) · [Tracking Curation](https://data-curation.pages.dev/)
 
-- **[Affective Synchronization 🌐 Live Demo](https://affective-sync.pages.dev/)** ☄︎ A client-side neural network application utilizing computer vision to extract facial blendshapes frame-by-frame and synchronize affective data with an interactive timeline<br/>
-  | Angular, TypeScript, MediaPipe, ECharts → 💻 [Source Code](https://github.com/wixhub/AffectiveSync)
+*Technologies:* Java, Spring Boot, PostgreSQL, Docker, TypeScript, Angular, Nx, Leaflet, Web Workers.
 
-## 🌍 EcoEngine & Spatial Telemetry Ecosystem
+### 2. Wasm Point Cloud Engine — Computational Geometry & Visualization
 
-- **EcoEngine Core** ☄︎ High-performance Java Spring Boot core service providing RESTful APIs, secure metadata ingestion pipelines and database management for ecological research 🌐 [Metadata Harvester](https://metadata-harvester.pages.dev) <br/>
-  | Java, Spring Boot, PostgreSQL, Docker → 💻 [Source Code](https://github.com/wixhub/ecoengine)
+[**Source code**](https://github.com/wixhub/WasmPointCloud) · [**Live demo**](https://point-cloud.pages.dev/)
 
-- **Eco-Proxy (Cloudflare Worker)** ☄︎ Secure Cloudflare Worker acting as a CORS proxy for the Movebank API and an AI agent gateway <br/>
-  | TypeScript, Cloudflare Workers, Groq AI → 💻 [Source Code](https://github.com/wixhub/ecoproxy)
+Interactive 3D point-cloud processing and visualization with spatial downsampling and non-destructive filtering. A C++20 computational engine compiled to WebAssembly and integrated with an Angular and Three.js frontend.
 
-- **Ecosystem Frontend Suite** ☄︎ Unified Angular monorepo housing all scientific applications and micro-frontends, including web apps 🌐 [Specification Builder](https://eco-spec.pages.dev), [Metadata Harvester](https://metadata-harvester.pages.dev), [Dataset Explorer](https://movebank-explorer.pages.dev), [Telemetry Animator](https://spatial-temporal.pages.dev), [Sensor Streams](https://sensor-streams.pages.dev), [Spatial Visualizer](https://bio-stream.pages.dev) and [Tracking Curation](https://data-curation.pages.dev) <br/>
-  | Angular, Signals, TypeScript, NX Monorepo → 💻 [Source Code](https://github.com/wixhub/ecosystem)
+*Technologies:* C++20, WebAssembly, Emscripten, Angular, Three.js.
 
-🌐 Live Demos:
+### 3. Med Vision Inspector — Biomedical Imaging & Explainable AI
 
-- **Specification Builder** ⚗️ Professional specification wizard for configuring hierarchical Movebank telemetry parameters and generating structured JSON schemas, featuring real-time data volume calculations processed in a background Web Worker thread <br/>
-  | Angular, Signals, Web Workers, TypeScript, NX Monorepo → 🌐 [Live Demo](https://eco-spec.pages.dev)
+[**Source code**](https://github.com/wixhub/web-vision-inspector) · [**Live demo**](https://vision-inspector.pages.dev/)
 
-- **Metadata Harvester** ☄︎ Responsive frontend application for the metadata ingestion pipeline and REST gateway. Communicates with the EcoEngine backend and is housed within the unified ecosystem workspace <br/>
-  | Angular, TypeScript, NX Monorepo → 🌐 [Live Demo](https://metadata-harvester.pages.dev)
+Scientific application for biomedical image inspection and processing, with deep-learning-based analysis and Grad-CAM visualizations to examine model attention.
 
-- **Dataset Explorer** ☄︎ Responsive frontend prototype for research data repositories, built for the MoveRDM ecosystem and communicating with the Workers and Groq AI backends <br/>
-  | Angular, TypeScript, NX Monorepo → 🌐 [Live Demo](https://movebank-explorer.pages.dev)
+*Technologies:* Python, PyTorch, FastAPI, computer vision, explainable AI.
 
-- **Telemetry Animator** ☄︎ High-performance scientific web application for interactive playback and visualization of animal migration telemetry over geographical map layers, incorporating timeline controls and speed scaling, communicating with the Workers backends <br/>
-  | Angular, Leaflet, TypeScript, NX Monorepo → 🌐 [Live Demo](https://spatial-temporal.pages.dev)
+### 4. Micro Expression Engine — Computer Vision & Real-Time Processing
 
-- **Sensor Streams** ☄︎ The scientific dashboard designed to visualize multi-dimensional sensor streams, combining GPS tracking with accelerometer and environmental data through synchronized time-series charts, communicating with the Workers backends <br/>
-  | Angular, ChartJS, TypeScript, NX Monorepo → 🌐 [Live Demo](https://sensor-streams.pages.dev)
+[**Source code**](https://github.com/wixhub/facs) · [**Live demo**](https://facs-engine.pages.dev/)
 
-- **Spatial Visualizer** ☄︎ Spatial rendering engine for migratory animal tracking data, communicating with the Workers backends <br/>
-  | Angular, Leaflet, TypeScript, NX Monorepo → 🌐 [Live Demo](https://bio-stream.pages.dev)
+A computer-vision project originating from a Master of Science project in 2010, with a fully renewed codebase in 2026. The current implementation combines a C++20 processing engine compiled to WebAssembly with a modern Angular interface for real-time facial analysis and visual exploration.
 
-- **Tracking Curation** ☄︎ Interactive web utility for researchers working with animal tracking data, leveraging browser-based Dexie storage for offline-first data management <br/>
-  | Angular, Dexie, Leaflet, TypeScript, NX Monorepo → 🌐 [Live Demo](https://data-curation.pages.dev)
+The project connects an earlier academic research interest with a contemporary browser-based implementation.
 
-### 🧘 Applied Wellness Tools
+*Technologies:* C++20, WebAssembly, Emscripten, Ninja, Angular, TypeScript.
 
-- **[Bilateral Stimulation 🌐 Live Demo](https://bilateral-stimulation.pages.dev)** (_EMDR_) A visual tool designed to help process stress and reduce emotional intensity.
+### 5. Affective Synchronization — Temporal Data Visualization
 
-- **[Breathe & Focus 🌐 Live Demo](https://breathe-circle.pages.dev)** (_Visual Calm_) Guided visualization exercises designed to lower heart rate and reduce cortisol levels through rhythmic pattern observation.
+[**Source code**](https://github.com/wixhub/AffectiveSync) · [**Live demo**](https://affective-sync.pages.dev/)
 
-- **[Soundscape Mixer 🌐 Live Demo](https://sonosphere.pages.dev)** (_Audio Therapy_) Personalize your auditory environment with layered binaural beats and nature sounds to improve concentration and mood.
+Browser-based application for processing facial blendshape data frame by frame and exploring temporal synchronization through an interactive timeline.
 
-- **[The Thought Shredder 🌐 Live Demo](https://thought-shredder.pages.dev)** (_Cognitive Defusion_) Type out intrusive or anxious thoughts and visually destroy them to create psychological distance and reduce their emotional impact.
-
-- **[5-4-3-2-1 Grounding 🌐 Live Demo](https://grounding.pages.dev)** (_Anxiety Relief_) An interactive step-by-step guide to bring your focus back to the physical present during moments of high anxiety or panic.
-
-- **[Interactive Emotion Wheel 🌐 Live Demo](https://emotion-chart.pages.dev)** (_Self-Reflection_) Navigate through core feelings to accurately identify and verbalize your current emotional state for better nervous system regulation.
+*Technologies:* Angular, TypeScript, MediaPipe, ECharts.
 
 ---
 
-## ⚡ Core Tech Stack & Infrastructure
+## Engineering Focus
 
-- **Frontend & Architecture**: Angular, TypeScript, RxJS, Leaflet (GIS)
+- **Scientific computing:** C++20, WebAssembly, computational processing, spatial data and performance-conscious implementations.
+- **Research data infrastructure:** REST APIs, metadata ingestion, relational databases and data integration.
+- **Scientific visualization:** 3D rendering, geospatial mapping, temporal analysis and interactive data exploration.
+- **Computer vision and AI:** PyTorch, image analysis, model visualization and facial data processing.
+- **Software architecture:** Java/Spring Boot, Python/FastAPI, TypeScript, Angular and Nx monorepos.
+- **Deployment and tooling:** Docker, Git, Emscripten, Ninja and cloud-based application deployment.
 
-- **Backend & APIs**: C++, Java, Spring Boot, REST APIs, Workers (Serverless), Groq AI
+## Research Software Principles
 
-- **Databases & Storage**:
-  - Relational DBs (PostgreSQL, MySQL) for dynamic cloud-native data management
-  - NoSQL (MongoDB) for flexible telemetry schemas and unstructured scientific datasets
+The portfolio aims to support software that is understandable, maintainable and reusable in research contexts.
 
-- **DevOps & Domain**: Docker, Git, CI/CD Pipelines, spatial data pipelines and scientific instrumentation.
+Key engineering priorities include:
+
+- Clear documentation of architecture, algorithms and data flows.
+- Automated testing and validation appropriate to each computational component.
+- Reproducible development and deployment instructions.
+- Transparent data provenance, methodological limitations and attribution.
+- Modular interfaces and reusable components for scientific workflows.
+
+## Additional Projects
+
+<details>
+<summary>Applied wellness and interactive reflection tools</summary>
+
+- [Bilateral Stimulation](https://bilateral-stimulation.pages.dev/) — Visual bilateral-stimulation tool.
+- [Breathe & Focus](https://breathe-circle.pages.dev/) — Guided breathing and visual focus.
+- [Soundscape Mixer](https://sonosphere.pages.dev/) — Customizable layered audio environments.
+- [The Thought Shredder](https://thought-shredder.pages.dev/) — Interactive cognitive-defusion exercise.
+- [5-4-3-2-1 Grounding](https://grounding.pages.dev/) — Guided sensory-grounding exercise.
+- [Interactive Emotion Wheel](https://emotion-chart.pages.dev/) — Interactive emotional vocabulary and self-reflection.
+
+</details>
+
+---
+
+*Open-source projects and live demonstrations are provided for technical exploration. Scientific validity, clinical efficacy and suitability for specific research workflows depend on the methods, data and validation documented by each project.*
